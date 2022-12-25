@@ -4,10 +4,4 @@
 .ipr
 **/idea
 out
-*.xml
-
-#exclude the entire contents of the folder target
-target/*
-#except for a specific file:
-!target/yeremenko.jar
-!target/yeremenko-jar-with-dependencies.jar
+**/target
